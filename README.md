@@ -4,7 +4,7 @@ A grunt task to prettify JSON files
 
 ## Installation
 
-Install the task and save it as a developer dependency:
+Install the task:
 ```bash
 npm install grunt-json-prettify --save-dev
 ```
