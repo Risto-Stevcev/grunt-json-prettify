@@ -29,7 +29,7 @@ grunt.initConfig({
       space: 4
     },
 
-    all: { src: ['test/*.js'] }
+    all: { src: ['lib/*.json'] }
   }
 });
 
