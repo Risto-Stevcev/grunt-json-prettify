@@ -1,7 +1,7 @@
 var should = require('should')
 var grunt = require('grunt')
 
-describe('json-prettify', function() {
+describe('json-prettify', function () {
   'use strict';
   function testGruntOutput(filename) {
     var filename = filename 
@@ -10,38 +10,38 @@ describe('json-prettify', function() {
     actual.should.equal(expected);
   }
 
-  describe('basic.json', function() {
-    it('should prettify the file', function() {
+  describe('basic.json', function () {
+    it('should prettify the file', function () {
       testGruntOutput('basic.json')
     })
   })
 
-  describe('basic2.json', function() {
-    it('should prettify the file', function() {
+  describe('basic2.json', function () {
+    it('should prettify the file', function () {
       testGruntOutput('basic2.json')
     })
   })
 
-  describe('empty.json', function() {
-    it('should leave the empty object intact', function() {
+  describe('empty.json', function () {
+    it('should leave the empty object intact', function () {
       testGruntOutput('empty.json')
     })
   })
 
-  describe('boolean.json', function() {
-    it('should leave the boolean value intact', function() {
+  describe('boolean.json', function () {
+    it('should leave the boolean value intact', function () {
       testGruntOutput('boolean.json')
     })
   })
 
-  describe('number.json', function() {
-    it('should leave the number value intact', function() {
+  describe('number.json', function () {
+    it('should leave the number value intact', function () {
       testGruntOutput('number.json')
     })
   })
 
-  describe('string.json', function() {
-    it('should leave the string value intact', function() {
+  describe('string.json', function () {
+    it('should leave the string value intact', function () {
       testGruntOutput('string.json')
     })
   })

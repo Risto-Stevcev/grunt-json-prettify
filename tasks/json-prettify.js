@@ -1,6 +1,6 @@
-module.exports = function(grunt) {
+module.exports = function (grunt) {
   'use strict';
-  grunt.registerMultiTask('jsonprettify', 'Prettify JSON files', function() {
+  grunt.registerMultiTask('jsonprettify', 'Prettify JSON files', function () {
     /* Defaults  */
     var options = this.options({
       replacer: undefined,
@@ -9,8 +9,8 @@ module.exports = function(grunt) {
     })
 
     /* JSON Prettify */
-    this.files.forEach(function(file) {
-      file.src.forEach(function(src) {
+    this.files.forEach(function (file) {
+      file.src.forEach(function (src) {
         if (grunt.file.isFile(src)) {
           var prettified = JSON.stringify( JSON.parse(grunt.file.read(src), options.reviver),
                                            options.replacer,

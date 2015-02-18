@@ -1,6 +1,6 @@
 {
   "name": "grunt-json-prettify",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A grunt task to prettify JSON files",
   "scripts": {
     "test": "./node_modules/.bin/grunt"
@@ -10,6 +10,7 @@
     "url": "Risto-Stevcev/grunt-json-prettify"
   },
   "keywords": [
+    "gruntplugin",
     "grunt",
     "json",
     "prettify",
